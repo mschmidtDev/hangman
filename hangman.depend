@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1619263261 source:c:\_desktop\schule_programmieren\hangman\input_check.c
+	"input_check.h"
+
+1619263260 c:\_desktop\schule_programmieren\hangman\input_check.h
+
+1619265798 source:c:\_desktop\schule_programmieren\hangman\main.c
+	<stdio.h>
+	<stdlib.h>
+	"end_game.h"
+	"input_check.h"
+	"timer.h"
+
+1619263745 c:\_desktop\schule_programmieren\hangman\end_game.h
+
+1619265510 c:\_desktop\schule_programmieren\hangman\timer.h
+	"time.h"
+
+1619263753 source:c:\_desktop\schule_programmieren\hangman\end_game.c
+	"end_game.h"
+
+1619266107 source:c:\_desktop\schule_programmieren\hangman\timer.c
+	"timer.h"
+	"time.h"
+

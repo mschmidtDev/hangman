@@ -6,9 +6,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "end_game.h"
+#include "input_check.h"
+#include "timer.h"
 
 int main()
 {
-    printf("Hello world!\n");
+
     return 0;
 }

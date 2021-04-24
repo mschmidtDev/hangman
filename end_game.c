@@ -1,7 +1,7 @@
 #include "end_game.h"
 
 // Check if game was won (returns 1 on win, 0 if not won yet)
-int check_won(int[] result)
+int check_won(int result[])
 {
     int checker = 1;
     int array_length = sizeof(result)/sizeof(result[0]);
