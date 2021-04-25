@@ -8,6 +8,8 @@
 #include "end_game.h"
 #include "input_check.h"
 #include "timer.h"
+#include "game_state.h"
+#include "input.h"
 
 int main()
 {
