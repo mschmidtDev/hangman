@@ -1,6 +1,7 @@
 #ifndef GAME_STATE_H_INCLUDED
 #define GAME_STATE_H_INCLUDED
 
+// create guess struct with all necessary data for one guess
 struct guess
 {
     int answer_length;
