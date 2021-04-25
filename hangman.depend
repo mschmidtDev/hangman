@@ -23,3 +23,47 @@
 	"timer.h"
 	"time.h"
 
+1619267153 source:d:\programmieren\hangman\end_game.c
+	"end_game.h"
+
+1619267153 d:\programmieren\hangman\end_game.h
+
+1619267153 source:d:\programmieren\hangman\input_check.c
+	"input_check.h"
+
+1619267153 d:\programmieren\hangman\input_check.h
+
+1619267153 source:d:\programmieren\hangman\timer.c
+	"timer.h"
+	"time.h"
+
+1619267153 d:\programmieren\hangman\timer.h
+	"time.h"
+
+1619301395 source:d:\programmieren\hangman\main.c
+	<stdio.h>
+	<stdlib.h>
+	"end_game.h"
+	"input_check.h"
+	"timer.h"
+	"game_state.h"
+	"input.h"
+
+1619301689 source:d:\programmieren\hangman\game_state.c
+	<stdio.h>
+	<string.h>
+	"game_state.h"
+
+1619301786 source:d:\programmieren\hangman\input.c
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	"input.h"
+	"game_state.h"
+	"input_check.h"
+
+1619301501 d:\programmieren\hangman\game_state.h
+
+1619300778 d:\programmieren\hangman\input.h
+	"game_state.h"
+
