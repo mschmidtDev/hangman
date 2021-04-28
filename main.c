@@ -13,6 +13,18 @@
 
 int main()
 {
+    struct guess this_guess;
+
+    this_guess = new_game();
+
+    start_timer();
+
+    do {
+        this_guess = input_letter(this_guess);
+
+        print_result(this_guess);
+
+    }while (this_guess.mistakes < 10);
 
     return 0;
 }

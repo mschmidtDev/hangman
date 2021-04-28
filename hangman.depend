@@ -40,7 +40,7 @@
 1619267153 d:\programmieren\hangman\timer.h
 	"time.h"
 
-1619303537 source:d:\programmieren\hangman\main.c
+1619622928 source:d:\programmieren\hangman\main.c
 	<stdio.h>
 	<stdlib.h>
 	"end_game.h"
@@ -49,12 +49,13 @@
 	"game_state.h"
 	"input.h"
 
-1619301689 source:d:\programmieren\hangman\game_state.c
+1619348974 source:d:\programmieren\hangman\game_state.c
 	<stdio.h>
+	<ctype.h>
 	<string.h>
 	"game_state.h"
 
-1619348486 source:d:\programmieren\hangman\input.c
+1619622879 source:d:\programmieren\hangman\input.c
 	<stdio.h>
 	<ctype.h>
 	<string.h>
