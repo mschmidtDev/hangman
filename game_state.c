@@ -2,6 +2,7 @@
 #include <ctype.h>
 #include <string.h>
 #include "game_state.h"
+#include "timer.h"
 
 // start new game
 struct guess new_game(void)
@@ -47,6 +48,9 @@ void print_result(struct guess this_guess)
     }
 
     printf("You guessed these letters so far:\n%s\n", this_guess.guessed);
+
+    // tell user time used so far
+    printf("You used %f seconds so far.\n", cur_timer());
 
     // tell user amount of tries and mistakes
     printf("You guessed a total of %d times.\n", this_guess.tries);

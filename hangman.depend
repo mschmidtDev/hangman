@@ -4,7 +4,7 @@
 
 1619352745 c:\_desktop\schule_programmieren\hangman\input_check.h
 
-1619617762 source:c:\_desktop\schule_programmieren\hangman\main.c
+1619630453 source:c:\_desktop\schule_programmieren\hangman\main.c
 	<stdio.h>
 	<stdlib.h>
 	"end_game.h"
@@ -14,12 +14,13 @@
 	"input.h"
 	"game_state.h"
 
-1619352745 c:\_desktop\schule_programmieren\hangman\end_game.h
+1619629600 c:\_desktop\schule_programmieren\hangman\end_game.h
+	"game_state.h"
 
 1619626142 c:\_desktop\schule_programmieren\hangman\timer.h
 	"time.h"
 
-1619625713 source:c:\_desktop\schule_programmieren\hangman\end_game.c
+1619630219 source:c:\_desktop\schule_programmieren\hangman\end_game.c
 	<stdio.h>
 	<ctype.h>
 	<string.h>
@@ -73,11 +74,12 @@
 1619300778 d:\programmieren\hangman\input.h
 	"game_state.h"
 
-1619618514 source:c:\_desktop\schule_programmieren\hangman\game_state.c
+1619630391 source:c:\_desktop\schule_programmieren\hangman\game_state.c
 	<stdio.h>
 	<ctype.h>
 	<string.h>
 	"game_state.h"
+	"timer.h"
 
 1619352745 c:\_desktop\schule_programmieren\hangman\game_state.h
 
