@@ -16,15 +16,18 @@
 
 1619352745 c:\_desktop\schule_programmieren\hangman\end_game.h
 
-1619352745 c:\_desktop\schule_programmieren\hangman\timer.h
+1619626142 c:\_desktop\schule_programmieren\hangman\timer.h
 	"time.h"
 
-1619352745 source:c:\_desktop\schule_programmieren\hangman\end_game.c
-	"end_game.h"
+1619625713 source:c:\_desktop\schule_programmieren\hangman\end_game.c
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	"game_state.h"
 
-1619352745 source:c:\_desktop\schule_programmieren\hangman\timer.c
+1619625835 source:c:\_desktop\schule_programmieren\hangman\timer.c
+	<time.h>
 	"timer.h"
-	"time.h"
 
 1619267153 source:d:\programmieren\hangman\end_game.c
 	"end_game.h"

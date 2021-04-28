@@ -1,25 +1,19 @@
-#include "end_game.h"
+#include <stdio.h>
+#include <ctype.h>
+#include <string.h>
+#include "game_state.h"
 
-// Check if game was won (returns 1 on win, 0 if not won yet)
-int check_won(int result[])
+// Check if game was lost or won in last round
+int check_win_or_lose(struct guess this_guess)
 {
-    int checker = 1;
-    int array_length = sizeof(result)/sizeof(result[0]);
-
-    for (int i = 0; i < array_length; i++) {
-        if (result[i] != 1) {
-            checker = 0;
-        }
-    }
-
-    return checker;
-}
-
-// Check if game was lost (returns 1 if game is lost, 0 when ongoing
-int check_lost(int used, int chances)
-{
-    if (used >= chances) {
+    if (this_guess.mistakes > 10) {
         return 1;
     }
-}
 
+
+    if (strcmp(this_guess.masked, this_guess.answer)) {
+        return 1;
+    } else {
+        return 0;
+    }
+}

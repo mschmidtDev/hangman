@@ -25,7 +25,7 @@ int main()
 
         print_result(this_guess);
 
-    }while (this_guess.mistakes < 10);
+    }while(check_win_or_lose(this_guess));
 
 
     return 0;

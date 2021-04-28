@@ -1,5 +1,5 @@
+#include <time.h>
 #include "timer.h"
-#include "time.h"
 
 // Start the timer
 void start_timer()
