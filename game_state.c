@@ -30,6 +30,9 @@ struct guess new_game(void)
         this_guess.masked[i] = '_';
     }
 
+    // Append \0 to end string
+    this_guess.masked[this_guess.answer_length] = '\0';
+
     // create array for showing guessed letters
     for (int i = 0; i < 26; i++) {
         this_guess.guessed[i] = '_';
