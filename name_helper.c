@@ -57,5 +57,7 @@ struct saved_usernames file_read(struct saved_usernames)
         helper++;
     }
 
+    fclose(fp);
+
     return saved_usernames;
 }
