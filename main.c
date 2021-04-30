@@ -11,10 +11,14 @@
 #include "game_state.h"
 #include "input.h"
 #include "game_state.h"
+#include "name_helper.h"
 
 int main()
 {
     struct guess this_guess;
+    struct saved_usernames saved_usernames;
+
+    saved_usernames = set_name(saved_usernames);
 
     this_guess = new_game();
 

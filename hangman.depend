@@ -74,12 +74,13 @@
 1619300778 d:\programmieren\hangman\input.h
 	"game_state.h"
 
-1619630391 source:c:\_desktop\schule_programmieren\hangman\game_state.c
+1619786744 source:c:\_desktop\schule_programmieren\hangman\game_state.c
 	<stdio.h>
 	<ctype.h>
 	<string.h>
 	"game_state.h"
 	"timer.h"
+	"name_helper.h"
 
 1619352745 c:\_desktop\schule_programmieren\hangman\game_state.h
 
@@ -94,4 +95,6 @@
 1619618757 c:\_desktop\schule_programmieren\hangman\input.h
 	"input_check.h"
 	"game_state.h"
+
+1619786859 c:\_desktop\schule_programmieren\hangman\name_helper.h
 

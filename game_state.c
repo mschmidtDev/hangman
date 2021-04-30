@@ -3,6 +3,7 @@
 #include <string.h>
 #include "game_state.h"
 #include "timer.h"
+#include "name_helper.h"
 
 // start new game
 struct guess new_game(void)
