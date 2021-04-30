@@ -14,9 +14,9 @@
 int main()
 {
     struct guess this_guess;
-    struct saved_usernames saved_usernames;
+    struct saved_usernames this_saved_usernames;
 
-    saved_usernames = set_name(saved_usernames);
+    this_saved_usernames = set_name(this_saved_usernames);
 
     this_guess = new_game();
 
