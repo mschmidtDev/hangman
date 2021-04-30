@@ -48,7 +48,7 @@ void print_result(struct guess this_guess)
         printf("%c", this_guess.masked[i]);
     }
 
-    printf("You guessed these letters so far:\n%s\n", this_guess.guessed);
+    printf("\nYou guessed these letters so far:\n%s\n", this_guess.guessed);
 
     // tell user time used so far
     printf("You used %f seconds so far.\n", cur_timer());
