@@ -43,12 +43,15 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="input.h" />
-		<Unit filename="input_check.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="input_check.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="name_helper.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="name_helper.h">
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="timer.c">
 			<Option compilerVar="CC" />
