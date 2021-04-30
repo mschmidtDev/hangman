@@ -31,9 +31,29 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="end_game.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="end_game.h" />
+		<Unit filename="game_state.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="game_state.h" />
+		<Unit filename="input.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="input.h" />
+		<Unit filename="input_check.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="input_check.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="timer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="timer.h" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>
