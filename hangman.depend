@@ -29,48 +29,54 @@
 	<time.h>
 	"timer.h"
 
-1619267153 source:d:\programmieren\hangman\end_game.c
-	"end_game.h"
-
-1619267153 d:\programmieren\hangman\end_game.h
-
-1619267153 source:d:\programmieren\hangman\input_check.c
-	"input_check.h"
-
-1619267153 d:\programmieren\hangman\input_check.h
-
-1619267153 source:d:\programmieren\hangman\timer.c
-	"timer.h"
-	"time.h"
-
-1619267153 d:\programmieren\hangman\timer.h
-	"time.h"
-
-1619303537 source:d:\programmieren\hangman\main.c
+1619772146 source:d:\programmieren\hangman\end_game.c
 	<stdio.h>
-	<stdlib.h>
-	"end_game.h"
-	"input_check.h"
-	"timer.h"
-	"game_state.h"
-	"input.h"
-
-1619301689 source:d:\programmieren\hangman\game_state.c
-	<stdio.h>
+	<ctype.h>
 	<string.h>
 	"game_state.h"
 
-1619348486 source:d:\programmieren\hangman\input.c
+1619772146 d:\programmieren\hangman\end_game.h
+	"game_state.h"
+
+1619623208 source:d:\programmieren\hangman\input_check.c
+	"input_check.h"
+
+1619623208 d:\programmieren\hangman\input_check.h
+
+1619628820 source:d:\programmieren\hangman\timer.c
+	<time.h>
+	"timer.h"
+
+1619623209 d:\programmieren\hangman\timer.h
+	"time.h"
+
+1619789090 source:d:\programmieren\hangman\main.c
+	<stdio.h>
+	<stdlib.h>
+	"end_game.h"
+	"timer.h"
+	"input.h"
+	"game_state.h"
+	"name_helper.h"
+
+1619789090 source:d:\programmieren\hangman\game_state.c
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	"game_state.h"
+	"timer.h"
+	"name_helper.h"
+
+1619790989 source:d:\programmieren\hangman\input.c
 	<stdio.h>
 	<ctype.h>
 	<string.h>
 	"input.h"
 	"game_state.h"
-	"input_check.h"
 
-1619348823 d:\programmieren\hangman\game_state.h
+1619623208 d:\programmieren\hangman\game_state.h
 
-1619300778 d:\programmieren\hangman\input.h
+1619789090 d:\programmieren\hangman\input.h
 	"game_state.h"
 
 1619786744 source:c:\_desktop\schule_programmieren\hangman\game_state.c
@@ -94,4 +100,12 @@
 	"game_state.h"
 
 1619788280 c:\_desktop\schule_programmieren\hangman\name_helper.h
+
+1619789805 d:\programmieren\hangman\name_helper.h
+
+1619790672 source:d:\programmieren\hangman\name_helper.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"name_helper.h"
 

@@ -21,8 +21,8 @@ struct guess input_letter(struct guess this_guess)
     } while (!check_input(new_letter));
 
     // tell user if letter was guessed already
-    if (strchr(this_guess.masked, new_letter)) {
-        printf("You already guessed this letter, try again.\n");
+    if (strchr(this_guess.guessed, new_letter)) {
+        printf("\nYou already guessed this letter, try again.\n");
         return this_guess;
     }
 
