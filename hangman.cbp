@@ -31,6 +31,10 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="encryption.c">
+			<Option compilerVar="CC" />
+			<Option target="Debug" />
+		</Unit>
 		<Unit filename="end_game.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -43,13 +47,13 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="input.h" />
-		<Unit filename="input_check.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="input_check.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="name_helper.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="name_helper.h" />
 		<Unit filename="timer.c">
 			<Option compilerVar="CC" />
 		</Unit>

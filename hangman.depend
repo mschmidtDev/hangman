@@ -1,70 +1,123 @@
 # depslib dependency file v1.0
-1619263261 source:c:\_desktop\schule_programmieren\hangman\input_check.c
+1619352745 source:c:\_desktop\schule_programmieren\hangman\input_check.c
 	"input_check.h"
 
-1619263260 c:\_desktop\schule_programmieren\hangman\input_check.h
+1619352745 c:\_desktop\schule_programmieren\hangman\input_check.h
 
-1619265798 source:c:\_desktop\schule_programmieren\hangman\main.c
+1619795527 source:c:\_desktop\schule_programmieren\hangman\main.c
 	<stdio.h>
 	<stdlib.h>
 	"end_game.h"
-	"input_check.h"
 	"timer.h"
-
-1619263745 c:\_desktop\schule_programmieren\hangman\end_game.h
-
-1619265510 c:\_desktop\schule_programmieren\hangman\timer.h
-	"time.h"
-
-1619263753 source:c:\_desktop\schule_programmieren\hangman\end_game.c
-	"end_game.h"
-
-1619266107 source:c:\_desktop\schule_programmieren\hangman\timer.c
-	"timer.h"
-	"time.h"
-
-1619267153 source:d:\programmieren\hangman\end_game.c
-	"end_game.h"
-
-1619267153 d:\programmieren\hangman\end_game.h
-
-1619267153 source:d:\programmieren\hangman\input_check.c
-	"input_check.h"
-
-1619267153 d:\programmieren\hangman\input_check.h
-
-1619267153 source:d:\programmieren\hangman\timer.c
-	"timer.h"
-	"time.h"
-
-1619267153 d:\programmieren\hangman\timer.h
-	"time.h"
-
-1619622928 source:d:\programmieren\hangman\main.c
-	<stdio.h>
-	<stdlib.h>
-	"end_game.h"
-	"input_check.h"
-	"timer.h"
-	"game_state.h"
 	"input.h"
+	"game_state.h"
+	"name_helper.h"
 
-1619348974 source:d:\programmieren\hangman\game_state.c
+1619791499 c:\_desktop\schule_programmieren\hangman\end_game.h
+	"game_state.h"
+
+1619791499 c:\_desktop\schule_programmieren\hangman\timer.h
+	"time.h"
+
+1619791499 source:c:\_desktop\schule_programmieren\hangman\end_game.c
 	<stdio.h>
 	<ctype.h>
 	<string.h>
 	"game_state.h"
 
-1619622879 source:d:\programmieren\hangman\input.c
+1619791499 source:c:\_desktop\schule_programmieren\hangman\timer.c
+	<time.h>
+	"timer.h"
+
+1619957341 source:d:\programmieren\hangman\end_game.c
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	"game_state.h"
+
+1619956809 d:\programmieren\hangman\end_game.h
+	"game_state.h"
+
+1619623208 source:d:\programmieren\hangman\input_check.c
+	"input_check.h"
+
+1619623208 d:\programmieren\hangman\input_check.h
+
+1619791766 source:d:\programmieren\hangman\timer.c
+	<time.h>
+	"timer.h"
+
+1619791766 d:\programmieren\hangman\timer.h
+	"time.h"
+
+1619956813 source:d:\programmieren\hangman\main.c
+	<stdio.h>
+	<stdlib.h>
+	"end_game.h"
+	"timer.h"
+	"input.h"
+	"game_state.h"
+	"name_helper.h"
+
+1619952489 source:d:\programmieren\hangman\game_state.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+	"game_state.h"
+	"timer.h"
+	"name_helper.h"
+
+1619791766 source:d:\programmieren\hangman\input.c
 	<stdio.h>
 	<ctype.h>
 	<string.h>
 	"input.h"
 	"game_state.h"
-	"input_check.h"
 
-1619348823 d:\programmieren\hangman\game_state.h
+1619952042 d:\programmieren\hangman\game_state.h
 
-1619300778 d:\programmieren\hangman\input.h
+1619791766 d:\programmieren\hangman\input.h
 	"game_state.h"
+
+1619795652 source:c:\_desktop\schule_programmieren\hangman\game_state.c
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	"game_state.h"
+	"timer.h"
+	"name_helper.h"
+
+1619791499 c:\_desktop\schule_programmieren\hangman\game_state.h
+
+1619792098 source:c:\_desktop\schule_programmieren\hangman\input.c
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	"input.h"
+	"game_state.h"
+
+1619791499 c:\_desktop\schule_programmieren\hangman\input.h
+	"game_state.h"
+
+1619795977 c:\_desktop\schule_programmieren\hangman\name_helper.h
+
+1619942379 d:\programmieren\hangman\name_helper.h
+
+1619942379 source:d:\programmieren\hangman\name_helper.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"name_helper.h"
+
+1619795238 source:c:\_desktop\schule_programmieren\hangman\name_helper.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"name_helper.h"
+
+1619948521 source:d:\programmieren\hangman\encryption.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
 
