@@ -16,5 +16,7 @@ struct guess new_game(void);
 
 void print_result(struct guess this_guess);
 
+void print_hangman(struct guess this_guess);
+
 
 #endif // GAME_STATE_H_INCLUDED
