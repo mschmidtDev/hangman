@@ -52,6 +52,10 @@
 		</Unit>
 		<Unit filename="name_helper.c">
 			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="name_helper.h">
+			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="name_helper.h" />
 		<Unit filename="timer.c">
