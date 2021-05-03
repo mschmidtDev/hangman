@@ -3,14 +3,16 @@
 #include <string.h>
 #include "game_state.h"
 
-// Check if game was lost or won in last round ( 0 if nothing, 1 if lost, 2 if won
+// Check if game was lost or won in last round ( 0 if nothing, 1 if lost, 2 if won)
 int check_win_or_lose(struct guess this_guess)
 {
+    // If game is lost
     if (this_guess.mistakes > 9) {
         return 1;
     }
 
 
+    // If game is won or still ongoing
     if (!strcmp(this_guess.masked, this_guess.answer)) {
         return 2;
     } else {
@@ -18,6 +20,7 @@ int check_win_or_lose(struct guess this_guess)
     }
 }
 
+// Save the played game to a csv as a highscore list
 void save_highscore(struct guess this_guess, char *username, double time)
 {
     FILE * fp;

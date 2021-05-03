@@ -4,7 +4,7 @@
 
 1619352745 c:\_desktop\schule_programmieren\hangman\input_check.h
 
-1619795527 source:c:\_desktop\schule_programmieren\hangman\main.c
+1620028314 source:c:\_desktop\schule_programmieren\hangman\main.c
 	<stdio.h>
 	<stdlib.h>
 	"end_game.h"
@@ -13,13 +13,13 @@
 	"game_state.h"
 	"name_helper.h"
 
-1619791499 c:\_desktop\schule_programmieren\hangman\end_game.h
+1620028314 c:\_desktop\schule_programmieren\hangman\end_game.h
 	"game_state.h"
 
 1619791499 c:\_desktop\schule_programmieren\hangman\timer.h
 	"time.h"
 
-1619791499 source:c:\_desktop\schule_programmieren\hangman\end_game.c
+1620028314 source:c:\_desktop\schule_programmieren\hangman\end_game.c
 	<stdio.h>
 	<ctype.h>
 	<string.h>
@@ -80,15 +80,16 @@
 1619791766 d:\programmieren\hangman\input.h
 	"game_state.h"
 
-1619795652 source:c:\_desktop\schule_programmieren\hangman\game_state.c
+1620028314 source:c:\_desktop\schule_programmieren\hangman\game_state.c
 	<stdio.h>
+	<stdlib.h>
 	<ctype.h>
 	<string.h>
 	"game_state.h"
 	"timer.h"
 	"name_helper.h"
 
-1619791499 c:\_desktop\schule_programmieren\hangman\game_state.h
+1620028314 c:\_desktop\schule_programmieren\hangman\game_state.h
 
 1619792098 source:c:\_desktop\schule_programmieren\hangman\input.c
 	<stdio.h>
@@ -110,7 +111,7 @@
 	<stdlib.h>
 	"name_helper.h"
 
-1619795238 source:c:\_desktop\schule_programmieren\hangman\name_helper.c
+1619796150 source:c:\_desktop\schule_programmieren\hangman\name_helper.c
 	<stdio.h>
 	<string.h>
 	<stdlib.h>
@@ -120,3 +121,9 @@
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
+
+1620028314 source:c:\_desktop\schule_programmieren\hangman\encryption.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
