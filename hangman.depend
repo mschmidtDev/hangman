@@ -29,13 +29,13 @@
 	<time.h>
 	"timer.h"
 
-1619957341 source:d:\programmieren\hangman\end_game.c
+1620031123 source:d:\programmieren\hangman\end_game.c
 	<stdio.h>
 	<ctype.h>
 	<string.h>
 	"game_state.h"
 
-1619956809 d:\programmieren\hangman\end_game.h
+1620029473 d:\programmieren\hangman\end_game.h
 	"game_state.h"
 
 1619623208 source:d:\programmieren\hangman\input_check.c
@@ -43,14 +43,14 @@
 
 1619623208 d:\programmieren\hangman\input_check.h
 
-1619791766 source:d:\programmieren\hangman\timer.c
+1619958099 source:d:\programmieren\hangman\timer.c
 	<time.h>
 	"timer.h"
 
-1619791766 d:\programmieren\hangman\timer.h
+1619957983 d:\programmieren\hangman\timer.h
 	"time.h"
 
-1619956813 source:d:\programmieren\hangman\main.c
+1620029741 source:d:\programmieren\hangman\main.c
 	<stdio.h>
 	<stdlib.h>
 	"end_game.h"
@@ -59,7 +59,7 @@
 	"game_state.h"
 	"name_helper.h"
 
-1619952489 source:d:\programmieren\hangman\game_state.c
+1619958099 source:d:\programmieren\hangman\game_state.c
 	<stdio.h>
 	<stdlib.h>
 	<ctype.h>
@@ -68,16 +68,16 @@
 	"timer.h"
 	"name_helper.h"
 
-1619791766 source:d:\programmieren\hangman\input.c
+1619958099 source:d:\programmieren\hangman\input.c
 	<stdio.h>
 	<ctype.h>
 	<string.h>
 	"input.h"
 	"game_state.h"
 
-1619952042 d:\programmieren\hangman\game_state.h
+1619958099 d:\programmieren\hangman\game_state.h
 
-1619791766 d:\programmieren\hangman\input.h
+1619958099 d:\programmieren\hangman\input.h
 	"game_state.h"
 
 1620028314 source:c:\_desktop\schule_programmieren\hangman\game_state.c
@@ -103,9 +103,9 @@
 
 1619795977 c:\_desktop\schule_programmieren\hangman\name_helper.h
 
-1619942379 d:\programmieren\hangman\name_helper.h
+1619958099 d:\programmieren\hangman\name_helper.h
 
-1619942379 source:d:\programmieren\hangman\name_helper.c
+1619958099 source:d:\programmieren\hangman\name_helper.c
 	<stdio.h>
 	<string.h>
 	<stdlib.h>
@@ -117,7 +117,7 @@
 	<stdlib.h>
 	"name_helper.h"
 
-1619948521 source:d:\programmieren\hangman\encryption.c
+1619958099 source:d:\programmieren\hangman\encryption.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>

@@ -42,8 +42,8 @@ int main()
         printf("%s: You lost! The correct word was: %s\nIt took you %f seconds to come here.\n", this_saved_usernames.name_1, this_guess.answer, cur_timer());
     } else if (checker == 2) {
         printf("%s: You won! It took you %f seconds to come here.\n", this_saved_usernames.name_1, cur_timer());
-        save_highscore(this_guess, this_saved_usernames.name_1, cur_timer());
     }
+    save_highscore(this_guess, this_saved_usernames.name_1, cur_timer(), checker);
 
 
     return 0;
