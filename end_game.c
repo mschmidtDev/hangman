@@ -18,14 +18,30 @@ int check_win_or_lose(struct guess this_guess)
     }
 }
 
-void save_highscore(struct guess this_guess, char *username, double time)
+// Save highscores to highscores.csv
+void save_highscore(struct guess this_guess, char *username, double time, int won)
 {
+    // declare fp as filepointer
     FILE * fp;
 
-    fp = fopen("highscores.csv", "a");
+    // check if highscores.csv exists already
+    if ((fp = fopen("highscores.csv", "r"))!=NULL) {
+        // if it exists, continue with the rest
+        fclose(fp);
+    } else {
+        // otherwise create it and write first line with column names
+        fp = fopen("highscores.csv", "w");
+        fprintf(fp, "Name, Word, Mistakes, Time, Won?, \n");
+        fclose(fp);
+    }
 
-    fprintf(fp, "%s, %s, %d, %lf, \n", username, this_guess.answer, this_guess.tries, time);
-    printf("Saved to highscores.\n");
+    // open highscores.csv in append mode
+    (fp = fopen("highscores.csv", "a"));
 
+    // print necessary data to next line in file
+    fprintf(fp, "%s, %s, %d, %lf, %s, \n", username, this_guess.answer, this_guess.mistakes, time, ((won == 2) ? "won" : "lost"));
     fclose(fp);
+
+    // tell user that highscore was saved
+    printf("Saved to highscores.csv\n");
 }
