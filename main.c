@@ -6,6 +6,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <windows.h>
 #include "gamemode.h"
 
 int main()
@@ -23,6 +24,8 @@ int main()
     } else {
         printf("You shouldn't be here! :think:");
     }
+
+    sleep(10000);
 
     return 0;
 }
