@@ -10,4 +10,7 @@ void normal_game();
 // Co-op gamemode
 void coop_game();
 
+// Gamemode for a timed game
+void timed_game();
+
 #endif // GAMEMODE_H_INCLUDED

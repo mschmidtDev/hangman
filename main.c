@@ -19,7 +19,7 @@ int main()
     } else if (gamemode == 2) {
         coop_game();
     } else if (gamemode == 3) {
-        //todo
+        timed_game();
     } else {
         printf("You shouldn't be here! :think:");
     }

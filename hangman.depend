@@ -15,7 +15,7 @@
 1620029594 c:\_desktop\schule_programmieren\hangman\timer.h
 	"time.h"
 
-1620138909 source:c:\_desktop\schule_programmieren\hangman\end_game.c
+1620143510 source:c:\_desktop\schule_programmieren\hangman\end_game.c
 	<stdio.h>
 	<ctype.h>
 	<string.h>
@@ -123,9 +123,9 @@
 	<stdlib.h>
 	<string.h>
 
-1620142523 c:\_desktop\schule_programmieren\hangman\gamemode.h
+1620144630 c:\_desktop\schule_programmieren\hangman\gamemode.h
 
-1620143213 source:c:\_desktop\schule_programmieren\hangman\gamemode.c
+1620144626 source:c:\_desktop\schule_programmieren\hangman\gamemode.c
 	<stdio.h>
 	<stdlib.h>
 	"string.h"
