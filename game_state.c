@@ -54,6 +54,7 @@ struct guess new_game(void)
                 line_number++;
             }
         }
+        printf("\n|--------------------------------|\n\n");
         printf("A word has been chosen.\n");
     }
 
@@ -83,6 +84,7 @@ struct guess new_game(void)
 // print word with the guessed letters
 void print_result(struct guess this_guess)
 {
+    printf("\n|--------------------------------|\n\n");
     // print progress of guessed word
     for (int i = 0; i < this_guess.answer_length; i++) {
         printf("%c", this_guess.masked[i]);

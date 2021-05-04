@@ -11,8 +11,13 @@ struct saved_usernames
 
 // Function to set the name for this round
 struct saved_usernames set_name(struct saved_usernames saved_usernames);
+
+// Get usernames for co-op
+struct saved_usernames set_names_coop(struct saved_usernames saved_usernames);
+
 // Function to read last used usernames from file
 struct saved_usernames file_read(struct saved_usernames saved_usernames);
+
 // Function to write last used usernames to file
 void file_write(struct saved_usernames this_saved_usernames);
 

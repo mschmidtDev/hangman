@@ -4,22 +4,18 @@
 
 1619352745 c:\_desktop\schule_programmieren\hangman\input_check.h
 
-1620028314 source:c:\_desktop\schule_programmieren\hangman\main.c
+1620142551 source:c:\_desktop\schule_programmieren\hangman\main.c
 	<stdio.h>
 	<stdlib.h>
-	"end_game.h"
-	"timer.h"
-	"input.h"
-	"game_state.h"
-	"name_helper.h"
+	"gamemode.h"
 
-1620028314 c:\_desktop\schule_programmieren\hangman\end_game.h
+1620138909 c:\_desktop\schule_programmieren\hangman\end_game.h
 	"game_state.h"
 
-1619791499 c:\_desktop\schule_programmieren\hangman\timer.h
+1620029594 c:\_desktop\schule_programmieren\hangman\timer.h
 	"time.h"
 
-1620028314 source:c:\_desktop\schule_programmieren\hangman\end_game.c
+1620138909 source:c:\_desktop\schule_programmieren\hangman\end_game.c
 	<stdio.h>
 	<ctype.h>
 	<string.h>
@@ -80,7 +76,7 @@
 1619958099 d:\programmieren\hangman\input.h
 	"game_state.h"
 
-1620028314 source:c:\_desktop\schule_programmieren\hangman\game_state.c
+1620140703 source:c:\_desktop\schule_programmieren\hangman\game_state.c
 	<stdio.h>
 	<stdlib.h>
 	<ctype.h>
@@ -89,7 +85,7 @@
 	"timer.h"
 	"name_helper.h"
 
-1620028314 c:\_desktop\schule_programmieren\hangman\game_state.h
+1620029379 c:\_desktop\schule_programmieren\hangman\game_state.h
 
 1619792098 source:c:\_desktop\schule_programmieren\hangman\input.c
 	<stdio.h>
@@ -98,10 +94,10 @@
 	"input.h"
 	"game_state.h"
 
-1619791499 c:\_desktop\schule_programmieren\hangman\input.h
+1620029489 c:\_desktop\schule_programmieren\hangman\input.h
 	"game_state.h"
 
-1619795977 c:\_desktop\schule_programmieren\hangman\name_helper.h
+1620142857 c:\_desktop\schule_programmieren\hangman\name_helper.h
 
 1619958099 d:\programmieren\hangman\name_helper.h
 
@@ -111,7 +107,7 @@
 	<stdlib.h>
 	"name_helper.h"
 
-1619796150 source:c:\_desktop\schule_programmieren\hangman\name_helper.c
+1620141270 source:c:\_desktop\schule_programmieren\hangman\name_helper.c
 	<stdio.h>
 	<string.h>
 	<stdlib.h>
@@ -126,4 +122,17 @@
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
+
+1620142523 c:\_desktop\schule_programmieren\hangman\gamemode.h
+
+1620143213 source:c:\_desktop\schule_programmieren\hangman\gamemode.c
+	<stdio.h>
+	<stdlib.h>
+	"string.h"
+	"end_game.h"
+	"timer.h"
+	"input.h"
+	"game_state.h"
+	"name_helper.h"
+	"gamemode.h"
 
