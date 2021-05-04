@@ -11,4 +11,5 @@ To anyone who reads this, here are some tips for this program
     funky outputs when choosing a username. You can only save 3 usernames and should do it
     via the program.
     
-3.  
+3.  Yes, the encryption on the .txt is one of the easiest to crack, but it was set in the specification,
+ 
