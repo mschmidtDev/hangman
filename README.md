@@ -1,6 +1,13 @@
 # hangman
 Hangman Project for school
 
+Release MAC instructions:
+
+1.  Download Release Mac.zip
+2.  Unzip it 
+3.  Run a CMD tool in that folder
+4.  Run "make" and then "make clean"
+5.  Run "./hangman" or double-click the hangman executable
 
 To anyone who reads this, here are some tips for this program
 
