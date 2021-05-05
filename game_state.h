@@ -12,9 +12,14 @@ struct guess
     int mistakes;
 };
 
+// Function to initiate a new game
 struct guess new_game(void);
 
+// Print the results of a current round
 void print_result(struct guess this_guess);
+
+// Print the ascii-art hangman
+void print_hangman(struct guess this_guess);
 
 
 #endif // GAME_STATE_H_INCLUDED

@@ -1,43 +1,34 @@
 /**
  * A game of hangman
  * Authors: Johannes Busch, Merlin Schmidt
+ * Please read the readme.md before using this
  */
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "end_game.h"
-#include "timer.h"
-#include "input.h"
-#include "game_state.h"
-#include "name_helper.h"
+#include <unistd.h>
+#include "gamemode.h"
 
 int main()
 {
-    struct guess this_guess;
-    struct saved_usernames this_saved_usernames;
+    int gamemode;
 
-    this_saved_usernames = set_name(this_saved_usernames);
+    // Select the gamemode
+    gamemode = select_gamemode();
 
-    this_guess = new_game();
-
-    start_timer();
-
-    int checker = 0;
-
-    do {
-        this_guess = input_letter(this_guess);
-
-        print_result(this_guess);
-
-        checker = check_win_or_lose(this_guess);
-    }while(checker == 0);
-
-    if (checker == 1) {
-        printf("You lost! It took you %f seconds to come here.\n", cur_timer());
-    } else if (checker == 2) {
-        printf("You won! It took you %f seconds to come here.\n", cur_timer());
+    // Start that gamemode
+    if (gamemode == 1) {
+        normal_game();
+    } else if (gamemode == 2) {
+        coop_game();
+    } else if (gamemode == 3) {
+        timed_game();
+    } else {
+        printf("You shouldn't be here! :think:");
     }
 
+    // Sleep 10 seconds, gives user time to read results
+    sleep(10);
 
     return 0;
 }
