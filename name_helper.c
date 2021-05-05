@@ -140,6 +140,18 @@ struct saved_usernames file_read(struct saved_usernames this_saved_usernames)
     // Helper to change different struct elements
     int helper = 1;
 
+    // check if highscores.csv exists already
+    if ((fp = fopen("usernames.txt", "r"))!=NULL) {
+        // if it exists, continue with the rest
+        fclose(fp);
+    } else {
+        // otherwise create it and write first line with column names
+        fp = fopen("usernames.txt", "w");
+        fprintf(fp, "Merlin\nSven\nJohannes\n");
+        fclose(fp);
+    }
+
+
     // Open file
     fp = fopen("usernames.txt", "r");
 
