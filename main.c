@@ -6,7 +6,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <windows.h>
+#include <unistd.h>
 #include "gamemode.h"
 
 int main()
@@ -25,7 +25,7 @@ int main()
         printf("You shouldn't be here! :think:");
     }
 
-    sleep(10000);
+    sleep(10);
 
     return 0;
 }
