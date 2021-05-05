@@ -99,6 +99,7 @@ void print_result(struct guess this_guess)
     printf("You guessed a total of %d times.\n", this_guess.tries);
 }
 
+// Function to print the ascii-hangman on the console
 void print_hangman(struct guess this_guess)
 {
     char hangman[10] = "         ";

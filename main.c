@@ -13,8 +13,10 @@ int main()
 {
     int gamemode;
 
+    // Select the gamemode
     gamemode = select_gamemode();
 
+    // Start that gamemode
     if (gamemode == 1) {
         normal_game();
     } else if (gamemode == 2) {
@@ -25,6 +27,7 @@ int main()
         printf("You shouldn't be here! :think:");
     }
 
+    // Sleep 10 seconds, gives user time to read results
     sleep(10);
 
     return 0;
