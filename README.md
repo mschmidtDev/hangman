@@ -20,4 +20,3 @@ To anyone who reads this, here are some tips for this program
     
 3.  Yes, the encryption on the .txt is one of the easiest to crack, but it was set in the specification,
  
-4.  The Makefile doesn't work (yet). Please use this program on Windows and or in Code::Blocks.
